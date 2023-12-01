@@ -52,9 +52,9 @@ item4.addEventListener("mouseover", function() {
     song4.play();
 } );
 
-item5.addEventListener("mouseleave", function() {
-    song5.pause();
-    song5.currentTime = 0;
+item4.addEventListener("mouseleave", function() {
+    song4.pause();
+    song4.currentTime = 0;
 } );
 
 // Base thing | 5
@@ -62,7 +62,7 @@ item5.addEventListener("mouseover", function() {
     song5.play();
 } );
 
-item1.addEventListener("mouseleave", function() {
+item5.addEventListener("mouseleave", function() {
     song5.pause();
     song5.currentTime = 0;
 } );
@@ -78,12 +78,12 @@ item6.addEventListener("mouseleave", function() {
 } );
 
 // Base thing | 7
-item6.addEventListener("mouseover", function() {
-    song6.play();
+item7.addEventListener("mouseover", function() {
+    song7.play();
 } );
 
-item6.addEventListener("mouseleave", function() {
-    song6.pause();
-    song6.currentTime = 0;
+item7.addEventListener("mouseleave", function() {
+    song7.pause();
+    song7.currentTime = 0;
 } );
 
